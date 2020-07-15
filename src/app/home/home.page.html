@@ -22,9 +22,7 @@
             <ion-item>
               <ion-icon name="search"></ion-icon>
               <ion-input type="text" placeholder="Enter input. Use comma for multiple tags. e.g. lockdown, mask"
-                         [(ngModel)]="keywords" (keyup)="term$.next($event.target.value)"></ion-input>
-              <!-- (<HTMLInputElement>event.target)
-              [(ngModel)]="keywords" (keyup)="term$.next($event.target.value) -->
+                         [(ngModel)]="keywords" (keyup)="term$.next($event)"></ion-input>
             </ion-item>
           </ion-col>
         </ion-row>

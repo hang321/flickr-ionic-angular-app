@@ -24,4 +24,3 @@ npm run test
 - tags
 - link to higher resolution image
 - input box to search image tag 
--- delay 250ms to fire less frequent request to Flickr API
